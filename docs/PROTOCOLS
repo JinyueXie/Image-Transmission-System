@@ -1,0 +1,12 @@
+# Protocol Specifications
+
+## Communication Protocols
+1. TCP Implementation
+   - Reliable, ordered delivery
+   - Built-in flow control
+   - Connection-oriented
+
+2. UDP Implementation
+   - Low latency transmission
+   - Chunked data transfer
+   - Sequence number tracking

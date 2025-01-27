@@ -34,7 +34,7 @@ The system consists of two main components:
 ### Devices Used
 This project can run on any combination of devices:
 - **Sender**: Ubuntu machine or similar Linux-based environment.
-- **Receiver**: Ubuntu, Android (via Termux), iOS (via server apps), or another Linux system.
+- **Receiver**: Ubuntu machine.
 - **Network Setup**: Use a Wi-Fi or local network to connect the devices.
 
 ---
@@ -52,7 +52,7 @@ This project can run on any combination of devices:
    - Checksum-based validation ensures data integrity, especially for UDP transmissions.
 
 4. **Device Compatibility**:
-   - Supports cross-device communication between Ubuntu, iPads, Android phones, and more.
+   - Supports cross-device communication between Ubuntu.
 
 5. **Real-World Testing**:
    - Simulates real-world conditions such as network delays and packet loss using tools like `tc` (traffic control).

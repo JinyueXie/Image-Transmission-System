@@ -1,0 +1,15 @@
+# Build directories
+sender/build/
+receiver/target/
+
+# Generated files
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp

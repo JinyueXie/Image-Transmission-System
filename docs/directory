@@ -1,0 +1,15 @@
+# System Architecture
+
+## Overview
+This document details the architectural design of the Image Transmission System, focusing on the integration between C++ and Rust components.
+
+## Components
+1. C++ Sender
+   - Uses OpenSSL for encryption
+   - Implements chunked data transfer
+   - Handles both TCP and UDP protocols
+
+2. Rust Receiver
+   - Asynchronous operation with Tokio
+   - Implements secure decryption
+   - Handles packet reassembly
